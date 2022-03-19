@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.platform = :ios, '12.0'
-   
-   s.ios.vendored_frameworks = 'DinoRunner.xcframework'
+  s.ios.vendored_frameworks = 'DinoRunner.xcframework'
 end
