@@ -1,0 +1,16 @@
+PODS:
+  - DinoRunner (1.0.0)
+
+DEPENDENCIES:
+  - DinoRunner
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DinoRunner
+
+SPEC CHECKSUMS:
+  DinoRunner: 025d32927b916912455fd08ef9d52a9903736c6c
+
+PODFILE CHECKSUM: db881163c3a58c11c207559bb35b2b0e1ec03c0a
+
+COCOAPODS: 1.11.3
