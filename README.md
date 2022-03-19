@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
 [![License](https://img.shields.io/cocoapods/l/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
 [![Platform](https://img.shields.io/cocoapods/p/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
+[![iOS](https://img.shields.io/badge/iOS-12.0%2B-blue)](https://cocoapods.org/pods/DinoRunner)
 
 <details>
   <summary>Screenshots</summary>
@@ -14,8 +15,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 DinoRunner is available through [CocoaPods](https://cocoapods.org). To install
@@ -23,6 +22,22 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'DinoRunner'
+```
+
+## Usage
+
+Implement **AppDelegate** method with *any* return value:
+```swift
+func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> 
+UIInterfaceOrientationMask {
+    return .portrait
+ }
+```
+Activate Game:
+```swift
+import DinoRunner
+
+DinoRunner.startGame()
 ```
 
 ## Author
