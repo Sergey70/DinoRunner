@@ -17,12 +17,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### Cocoapods
+
 DinoRunner is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'DinoRunner'
 ```
+
+### Swift Package Manager
+
+Specify [https://github.com/Sergey70/DinoRunner](https://github.com/Sergey70/DinoRunner) within Xcode dependencies.
 
 ## Usage
 

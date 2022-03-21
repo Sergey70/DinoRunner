@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dinorunner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Sergey70/DinoRunner",
+      "state" : {
+        "revision" : "ecc7cf2985f45f13529fca8cecf1f8f37de03253",
+        "version" : "1.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
