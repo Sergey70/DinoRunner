@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
 [![License](https://img.shields.io/cocoapods/l/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
 [![Platform](https://img.shields.io/cocoapods/p/DinoRunner.svg?style=flat)](https://cocoapods.org/pods/DinoRunner)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://github.com/Sergey70/DinoRunner/edit/main/README.md#swift-package-manager)
 [![iOS](https://img.shields.io/badge/iOS-12.0%2B-blue)](https://cocoapods.org/pods/DinoRunner)
 
 <details>
@@ -28,7 +29,7 @@ pod 'DinoRunner'
 
 ### Swift Package Manager
 
-Specify [https://github.com/Sergey70/DinoRunner](https://github.com/Sergey70/DinoRunner) within Xcode dependencies.
+Add [https://github.com/Sergey70/DinoRunner](https://github.com/Sergey70/DinoRunner) to Xcode dependencies.
 
 ## Usage
 
