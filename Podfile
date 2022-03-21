@@ -19,6 +19,7 @@ end
 target 'DinoRunnerObjC-Demo' do
   project 'DinoRunnerObjC-Demo/DinoRunnerObjc-Demo.xcodeproj'
   use_frameworks!
+  
   pod 'DinoRunner'
 
 end
