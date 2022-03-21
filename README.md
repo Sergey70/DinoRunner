@@ -27,17 +27,47 @@ pod 'DinoRunner'
 ## Usage
 
 Implement **AppDelegate** method with *any* return value:
+
+### Swift:
+
 ```swift
 func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> 
 UIInterfaceOrientationMask {
     return .portrait
  }
 ```
-Activate Game:
+
+### Objective-C:
+
+```objective-c
+- (UIInterfaceOrientationMask)application:(UIApplication *)application 
+  supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskPortrait;
+}
+```
+
+### **Activate Game**:
+
+### Swift:
+
 ```swift
 import DinoRunner
 
 DinoRunner.startGame()
+```
+
+### Objective-C:
+
+```objective-c
+#import <DinoRunner/DinoRunner-Swift.h>
+
+[DinoRunner startGame];
+```
+Or:
+```objective-c
+@import DinoRunner;
+
+[DinoRunner startGame];
 ```
 
 ## Author

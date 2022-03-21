@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  DinoRunner-Demo
-//
-//  Created by Сергей Белонович on 19.03.22.
-//
 
 import UIKit
 

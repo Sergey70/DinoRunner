@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:DinoRunner-Demo.xcodeproj">
+      location = "group:DinoRunner-Demo/DinoRunner-Demo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DinoRunnerObjC-Demo/DinoRunnerObjC-Demo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
