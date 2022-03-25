@@ -10,5 +10,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.0'
   s.platform = :ios, '12.0'
+  s.swift_versions = ['4.0', '4.2', '5.0']
+  
+  s.frameworks = 'Foundation', 'UIKit', 'SpriteKit', 'GameplayKit', 'AVFoundation'
   s.ios.vendored_frameworks = 'DinoRunner.xcframework'
 end
