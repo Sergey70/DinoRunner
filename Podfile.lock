@@ -1,5 +1,5 @@
 PODS:
-  - DinoRunner (1.1.0)
+  - DinoRunner (1.1.1)
 
 DEPENDENCIES:
   - DinoRunner
@@ -9,8 +9,8 @@ SPEC REPOS:
     - DinoRunner
 
 SPEC CHECKSUMS:
-  DinoRunner: b6a8a6a8fa3862930aad127d2da5c4943ba985c3
+  DinoRunner: c3c8feb2e1677bdb58be9a0de465c7acf8b6b88e
 
-PODFILE CHECKSUM: 26717f283f29978833db59b3e597eeeda24f7335
+PODFILE CHECKSUM: 8e7fcb3d03927ee1f0fe2284dd08513bafd74e96
 
 COCOAPODS: 1.11.3

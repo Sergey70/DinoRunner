@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DinoRunner-Demo/../Package.swift">
+   </FileRef>
+   <FileRef
       location = "group:DinoRunnerObjC-Demo/DinoRunnerObjC-Demo.xcodeproj">
    </FileRef>
    <FileRef
@@ -9,5 +12,8 @@
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DinoRunnerObjC-Demo/DinoRunnerObjc-Demo.xcodeproj">
    </FileRef>
 </Workspace>
