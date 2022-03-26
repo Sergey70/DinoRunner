@@ -5,6 +5,9 @@
       location = "group:DinoRunner-Demo/../Package.swift">
    </FileRef>
    <FileRef
+      location = "group:DinoRunner-Demo/../DinoRunner.podspec">
+   </FileRef>
+   <FileRef
       location = "group:DinoRunnerObjC-Demo/DinoRunnerObjC-Demo.xcodeproj">
    </FileRef>
    <FileRef
