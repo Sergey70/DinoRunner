@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Sergey70/DinoRunner",
       "state" : {
-        "revision" : "f2bd86973d587301d6b30956cb20e9f72fcd583e",
+        "revision" : "68b08999fc28736fa33f0297df1ec1ca31445cb3",
         "version" : "1.2.0"
       }
     }

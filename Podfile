@@ -10,7 +10,7 @@ target 'DinoRunner-Demo' do
   project 'DinoRunner-Demo/DinoRunner-Demo.xcodeproj'
   use_frameworks!
   
-  pod 'DinoRunner'
+  pod 'DinoRunner', '1.2.1'
 
 end
 
@@ -20,6 +20,6 @@ target 'DinoRunnerObjC-Demo' do
   project 'DinoRunnerObjC-Demo/DinoRunnerObjc-Demo.xcodeproj'
   use_frameworks!
   
-  pod 'DinoRunner'
+  pod 'DinoRunner', '1.2.1'
 
 end

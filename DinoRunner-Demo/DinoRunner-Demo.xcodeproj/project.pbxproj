@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		591EBB9EE0F25F312D546A6E /* Pods_DinoRunner_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A883D6FAA7E19FDB47D3ADE6 /* Pods_DinoRunner_Demo.framework */; };
 		A56F0DA027E805FC001B760F /* DinoRunner.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A56F0D9F27E805FB001B760F /* DinoRunner.podspec */; };
 		A56F0DA227E806BE001B760F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A56F0DA127E806BE001B760F /* README.md */; };
 		A58971C927E6493E00C19FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58971C827E6493E00C19FF8 /* AppDelegate.swift */; };
@@ -14,11 +15,10 @@
 		A58971D027E6493E00C19FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58971CE27E6493E00C19FF8 /* Main.storyboard */; };
 		A58971D227E6494000C19FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58971D127E6494000C19FF8 /* Assets.xcassets */; };
 		A58971D527E6494000C19FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58971D327E6494000C19FF8 /* LaunchScreen.storyboard */; };
-		F5F96B8CA8661FC30E6D327F /* Pods_DinoRunner_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF49232641DC25CD53781AA /* Pods_DinoRunner_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A8563AC7BE2E48E242C7A46 /* Pods-DinoRunner-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinoRunner-Demo.release.xcconfig"; path = "Target Support Files/Pods-DinoRunner-Demo/Pods-DinoRunner-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		0DA41EF7FAC31DAA102E9011 /* Pods-DinoRunner-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinoRunner-Demo.release.xcconfig"; path = "Target Support Files/Pods-DinoRunner-Demo/Pods-DinoRunner-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		A56F0D9F27E805FB001B760F /* DinoRunner.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DinoRunner.podspec; path = ../DinoRunner.podspec; sourceTree = "<group>"; };
 		A56F0DA127E806BE001B760F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A58971C527E6493E00C19FF8 /* DinoRunner-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DinoRunner-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,8 +28,8 @@
 		A58971D127E6494000C19FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A58971D427E6494000C19FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A58971D627E6494000C19FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3D53D225DFBB8A71D35712D /* Pods-DinoRunner-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinoRunner-Demo.debug.xcconfig"; path = "Target Support Files/Pods-DinoRunner-Demo/Pods-DinoRunner-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		CCF49232641DC25CD53781AA /* Pods_DinoRunner_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinoRunner_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A883D6FAA7E19FDB47D3ADE6 /* Pods_DinoRunner_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinoRunner_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEFA7D11C1273BCA0A9C7D5 /* Pods-DinoRunner-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinoRunner-Demo.debug.xcconfig"; path = "Target Support Files/Pods-DinoRunner-Demo/Pods-DinoRunner-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5F96B8CA8661FC30E6D327F /* Pods_DinoRunner_Demo.framework in Frameworks */,
+				591EBB9EE0F25F312D546A6E /* Pods_DinoRunner_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E781D8BE348000434A6CB1E /* Frameworks */ = {
+		3CD2EB9B28339D05841F138B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CCF49232641DC25CD53781AA /* Pods_DinoRunner_Demo.framework */,
+				AFEFA7D11C1273BCA0A9C7D5 /* Pods-DinoRunner-Demo.debug.xcconfig */,
+				0DA41EF7FAC31DAA102E9011 /* Pods-DinoRunner-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		911737345782802798341F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A883D6FAA7E19FDB47D3ADE6 /* Pods_DinoRunner_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -59,8 +69,8 @@
 				A56F0DA127E806BE001B760F /* README.md */,
 				A58971C727E6493E00C19FF8 /* DinoRunner-Demo */,
 				A58971C627E6493E00C19FF8 /* Products */,
-				7E781D8BE348000434A6CB1E /* Frameworks */,
-				EFFB71359D4A55E2D405A5D6 /* Pods */,
+				3CD2EB9B28339D05841F138B /* Pods */,
+				911737345782802798341F48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,16 +95,6 @@
 			path = "DinoRunner-Demo";
 			sourceTree = "<group>";
 		};
-		EFFB71359D4A55E2D405A5D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C3D53D225DFBB8A71D35712D /* Pods-DinoRunner-Demo.debug.xcconfig */,
-				5A8563AC7BE2E48E242C7A46 /* Pods-DinoRunner-Demo.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,11 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A58971D927E6494000C19FF8 /* Build configuration list for PBXNativeTarget "DinoRunner-Demo" */;
 			buildPhases = (
-				54C23F1F1DE2EDA6C9CDC0DF /* [CP] Check Pods Manifest.lock */,
+				02931BA65B47581FFC8AA115 /* [CP] Check Pods Manifest.lock */,
 				A58971C127E6493E00C19FF8 /* Sources */,
 				A58971C227E6493E00C19FF8 /* Frameworks */,
 				A58971C327E6493E00C19FF8 /* Resources */,
-				A6997D01E424ADB493703E78 /* [CP] Embed Pods Frameworks */,
+				327796F48FDCB8A9E652A529 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,7 +166,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		54C23F1F1DE2EDA6C9CDC0DF /* [CP] Check Pods Manifest.lock */ = {
+		02931BA65B47581FFC8AA115 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,7 +188,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A6997D01E424ADB493703E78 /* [CP] Embed Pods Frameworks */ = {
+		327796F48FDCB8A9E652A529 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,7 +357,7 @@
 		};
 		A58971DA27E6494000C19FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3D53D225DFBB8A71D35712D /* Pods-DinoRunner-Demo.debug.xcconfig */;
+			baseConfigurationReference = AFEFA7D11C1273BCA0A9C7D5 /* Pods-DinoRunner-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,7 +386,7 @@
 		};
 		A58971DB27E6494000C19FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A8563AC7BE2E48E242C7A46 /* Pods-DinoRunner-Demo.release.xcconfig */;
+			baseConfigurationReference = 0DA41EF7FAC31DAA102E9011 /* Pods-DinoRunner-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

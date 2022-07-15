@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DinoRunner",
-            url: "https://github.com/Sergey70/DinoRunner/releases/download/1.2.0/DinoRunner.xcframework.zip",
-            checksum: "823ede470f0d9b66106354ec14e3f12c056338aa1987f2fc9083aa506b8381a1"
+            url: "https://github.com/Sergey70/DinoRunner/releases/download/1.2.1/DinoRunner.xcframework.zip",
+            checksum: "02ae00002488b896d74e19ef572ccd97ec4c80d0195fdcbae44e4caa9b5f0e0a"
         ),
         .binaryTarget(
             name: "YandexMobileMetrica",
