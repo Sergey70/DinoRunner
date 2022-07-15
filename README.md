@@ -24,7 +24,7 @@ DinoRunner is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DinoRunner'
+pod 'DinoRunner', '1.2.1'
 ```
 
 ### Swift Package Manager
