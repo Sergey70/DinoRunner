@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA1A25E2881799A00191D65 /* DinoRunner in Frameworks */ = {isa = PBXBuildFile; productRef = 6EA1A25D2881799A00191D65 /* DinoRunner */; };
 		A57D834F27EF7DAB002AD7B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D834E27EF7DAB002AD7B0 /* AppDelegate.swift */; };
 		A57D835327EF7DAB002AD7B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D835227EF7DAB002AD7B0 /* ViewController.swift */; };
 		A57D835627EF7DAB002AD7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D835427EF7DAB002AD7B0 /* Main.storyboard */; };
 		A57D835827EF7DAD002AD7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D835727EF7DAD002AD7B0 /* Assets.xcassets */; };
 		A57D835B27EF7DAD002AD7B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D835927EF7DAD002AD7B0 /* LaunchScreen.storyboard */; };
-		A57D836427EF7DF2002AD7B0 /* DinoRunner in Frameworks */ = {isa = PBXBuildFile; productRef = A57D836327EF7DF2002AD7B0 /* DinoRunner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57D836427EF7DF2002AD7B0 /* DinoRunner in Frameworks */,
+				6EA1A25E2881799A00191D65 /* DinoRunner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = "DinoRunner-Demo-SPM";
 			packageProductDependencies = (
-				A57D836327EF7DF2002AD7B0 /* DinoRunner */,
+				6EA1A25D2881799A00191D65 /* DinoRunner */,
 			);
 			productName = "DinoRunner-Demo-SPM";
 			productReference = A57D834B27EF7DAB002AD7B0 /* DinoRunner-Demo-SPM.app */;
@@ -114,7 +114,7 @@
 			);
 			mainGroup = A57D834227EF7DAB002AD7B0;
 			packageReferences = (
-				A57D836227EF7DF2002AD7B0 /* XCRemoteSwiftPackageReference "DinoRunner" */,
+				6EA1A25C2881799A00191D65 /* XCRemoteSwiftPackageReference "DinoRunner" */,
 			);
 			productRefGroup = A57D834C27EF7DAB002AD7B0 /* Products */;
 			projectDirPath = "";
@@ -366,20 +366,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A57D836227EF7DF2002AD7B0 /* XCRemoteSwiftPackageReference "DinoRunner" */ = {
+		6EA1A25C2881799A00191D65 /* XCRemoteSwiftPackageReference "DinoRunner" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sergey70/DinoRunner";
 			requirement = {
 				kind = exactVersion;
-				version = 1.2.0;
+				version = 1.2.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A57D836327EF7DF2002AD7B0 /* DinoRunner */ = {
+		6EA1A25D2881799A00191D65 /* DinoRunner */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A57D836227EF7DF2002AD7B0 /* XCRemoteSwiftPackageReference "DinoRunner" */;
+			package = 6EA1A25C2881799A00191D65 /* XCRemoteSwiftPackageReference "DinoRunner" */;
 			productName = DinoRunner;
 		};
 /* End XCSwiftPackageProductDependency section */
