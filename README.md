@@ -80,7 +80,7 @@ Or:
 ## Author
 [Sergey70](https://github.com/Sergey70)
 
-[![Telegram: @Sergey_s70](https://img.shields.io/badge/Contact-Sergey__s70-brightgreen)](https://t.me/Sergey_s70) 
+[![Telegram: @exovelate](https://img.shields.io/badge/Contact-exovelate-brightgreen)](https://t.me/exovelate) 
 
 ## License
 
